@@ -10,9 +10,9 @@ public class MainProgram {
         dice20.roll();
         System.out.println(dice20.value);
 
-//        System.out.println("Weighted Dice.");
-//        Dice weighted = new Dice(6, new int[]{1, 1, 1, 1, 1, 2});
-//        weighted.roll();
-//        System.out.println(weighted.value);
+       System.out.println("Weighted Dice.");
+       Dice weighted = new Dice(6, new int[]{1, 1, 1, 1, 1, 2});
+       weighted.roll();
+       System.out.println(weighted.value);
     }
 }

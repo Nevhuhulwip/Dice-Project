@@ -14,8 +14,7 @@ public class Dice {
     }
 
     public void roll() throws Exception{
-        // declare and initialise a variable to compute the cumulative sum of probabilities
-        int sumProbabilities = 0;
+        int sumProbabilities = 0; // declare and initialise a variable to compute the cumulative sum of probabilities
 
         for (int probability: probabilities) {
             // check the 3 possible exceptions defined
